@@ -29,7 +29,7 @@ except Exception:
 
 # Page configuration
 st.set_page_config(
-    page_title="CIS Opening Tender Committee Declaration System",
+    page_title="CIS Evaluation",
     page_icon="📋",
     layout="centered"
 )
@@ -51,7 +51,7 @@ def fetch_cloud_data():
         ],
         "site_config": {
             "company_name": "CEMENT INDUSTRIES (SABAH) SDN. BHD.",
-            "location_subtitle": "Sepanggar Industrial Estate • Opening Tender Committee Declaration Form"
+            "location_subtitle": "Sepanggar Industrial Estate • Evaluation Tender Committee Declaration Form"
         },
         "users": [
             {"username": "admin", "password": "admin123", "role": "System Administrator", "access": "Full CRUD on Tenders, Submissions & Config", "status": "Active"},
