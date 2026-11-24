@@ -167,7 +167,7 @@ with st.sidebar:
 
 # --- ADMIN PORTAL VIEW ---
 if nav_mode == "Admin Portal":
-    st.title("Opening Tender Committee")
+    st.title("Evaluation Tender Committee")
     st.subheader("Cement Industries (Sabah) Sdn Bhd - Enterprise Admin Control Center")
     
     if st.session_state.get("is_admin", False):
@@ -479,7 +479,7 @@ if nav_mode == "Admin Portal":
 
 # --- AUDITOR PORTAL VIEW ---
 elif nav_mode == "Auditor Portal":
-    st.title("Opening Tender Committee")
+    st.title("Evaluation Tender Committee")
     st.subheader("Cement Industries (Sabah) Sdn Bhd - Auditor Compliance Portal")
     
     if st.session_state.get("is_auditor", False):
